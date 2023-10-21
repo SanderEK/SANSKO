@@ -1,1 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Mobil stil først */
+/* ... */
+
+/* Desktop stil med media query */
+@media screen and (min-width: 768px) {
+    /* Flere kolonner for desktop her... */
+}

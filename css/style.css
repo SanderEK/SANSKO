@@ -36,7 +36,6 @@ body img {
 .horizontal-list img {
     width: 100px;  
     height: auto;  /
-    margin-right: 10px;  
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);  
 }
 
@@ -60,12 +59,8 @@ margin-right: 10px;
 margin-left: 10px;
 display: block;      
 
-.fa-solid fa-user {
-    color:aquamarine;
-    font-size: 50px;
 }
 
-}
 @media (max-width: 768px) {
 .horizontal-list {
 flex-direction: column;

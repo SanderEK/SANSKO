@@ -1,78 +1,46 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
-}
-
-#logo, #cart {
-    flex: 1;
-    text-align: center;
-}
-
-h1 {
-    flex: 2;
-    text-align: center;
-    margin: 0; 
+    background-color: #f4f4f4;
+    padding: 10px 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    padding: 10px 20px;
+    align-items: center;
+    padding: 0 20px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #000;
-    margin: 0 10px;
+nav img {
+    width: 100px; 
 }
 
-.products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+main {
     padding: 20px;
 }
 
-.product-card {
-    position: relative;
-    margin: 10px;
-    width: 200px;
+section {
+    margin-bottom: 40px;
 }
 
-.product-card img {
-    width: 100%;
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
-.product-name {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.search input {
-    width: 80%;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
